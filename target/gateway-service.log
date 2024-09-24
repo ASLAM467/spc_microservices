@@ -1,0 +1,216 @@
+08:36:30,472 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@3a91d146 - URL [jar:nested:/home/ubuntu/spc_microservices/spring-petclinic-api-gateway/target/spring-petclinic-api-gateway-3.2.7.jar/!BOOT-INF/classes/!/logback-spring.xml] is not of type file
+08:36:31,004 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@4784013e - Adding [jar:nested:/home/ubuntu/spc_microservices/spring-petclinic-api-gateway/target/spring-petclinic-api-gateway-3.2.7.jar/!BOOT-INF/lib/spring-boot-3.2.7.jar!/org/springframework/boot/logging/logback/base.xml] to configuration watch list.
+08:36:31,005 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@3a91d146 - URL [jar:nested:/home/ubuntu/spc_microservices/spring-petclinic-api-gateway/target/spring-petclinic-api-gateway-3.2.7.jar/!BOOT-INF/lib/spring-boot-3.2.7.jar!/org/springframework/boot/logging/logback/base.xml] is not of type file
+08:36:31,036 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@4784013e - Adding [jar:nested:/home/ubuntu/spc_microservices/spring-petclinic-api-gateway/target/spring-petclinic-api-gateway-3.2.7.jar/!BOOT-INF/lib/spring-boot-3.2.7.jar!/org/springframework/boot/logging/logback/defaults.xml] to configuration watch list.
+08:36:31,036 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@3a91d146 - URL [jar:nested:/home/ubuntu/spc_microservices/spring-petclinic-api-gateway/target/spring-petclinic-api-gateway-3.2.7.jar/!BOOT-INF/lib/spring-boot-3.2.7.jar!/org/springframework/boot/logging/logback/defaults.xml] is not of type file
+08:36:31,079 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word applicationName with class [org.springframework.boot.logging.logback.ApplicationNameConverter]
+08:36:31,079 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word clr with class [org.springframework.boot.logging.logback.ColorConverter]
+08:36:31,079 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word correlationId with class [org.springframework.boot.logging.logback.CorrelationIdConverter]
+08:36:31,079 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word wex with class [org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter]
+08:36:31,079 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word wEx with class [org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter]
+08:36:31,094 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@4784013e - Adding [jar:nested:/home/ubuntu/spc_microservices/spring-petclinic-api-gateway/target/spring-petclinic-api-gateway-3.2.7.jar/!BOOT-INF/lib/spring-boot-3.2.7.jar!/org/springframework/boot/logging/logback/console-appender.xml] to configuration watch list.
+08:36:31,094 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@3a91d146 - URL [jar:nested:/home/ubuntu/spc_microservices/spring-petclinic-api-gateway/target/spring-petclinic-api-gateway-3.2.7.jar/!BOOT-INF/lib/spring-boot-3.2.7.jar!/org/springframework/boot/logging/logback/console-appender.xml] is not of type file
+08:36:31,130 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@4784013e - Adding [jar:nested:/home/ubuntu/spc_microservices/spring-petclinic-api-gateway/target/spring-petclinic-api-gateway-3.2.7.jar/!BOOT-INF/lib/spring-boot-3.2.7.jar!/org/springframework/boot/logging/logback/file-appender.xml] to configuration watch list.
+08:36:31,130 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@3a91d146 - URL [jar:nested:/home/ubuntu/spc_microservices/spring-petclinic-api-gateway/target/spring-petclinic-api-gateway-3.2.7.jar/!BOOT-INF/lib/spring-boot-3.2.7.jar!/org/springframework/boot/logging/logback/file-appender.xml] is not of type file
+08:36:31,509 |-WARN in ch.qos.logback.core.model.processor.ImplicitModelHandler - Ignoring unknown property [jmxConfigurator] in [ch.qos.logback.classic.LoggerContext]
+08:36:31,515 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.catalina.startup.DigesterFactory] to ERROR
+08:36:31,516 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@6f952d6c - Propagating ERROR level on Logger[org.apache.catalina.startup.DigesterFactory] onto the JUL framework
+08:36:31,519 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.catalina.util.LifecycleBase] to ERROR
+08:36:31,519 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@6f952d6c - Propagating ERROR level on Logger[org.apache.catalina.util.LifecycleBase] onto the JUL framework
+08:36:31,519 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.coyote.http11.Http11NioProtocol] to WARN
+08:36:31,519 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@6f952d6c - Propagating WARN level on Logger[org.apache.coyote.http11.Http11NioProtocol] onto the JUL framework
+08:36:31,519 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.sshd.common.util.SecurityUtils] to WARN
+08:36:31,519 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@6f952d6c - Propagating WARN level on Logger[org.apache.sshd.common.util.SecurityUtils] onto the JUL framework
+08:36:31,523 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.tomcat.util.net.NioSelectorPool] to WARN
+08:36:31,523 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@6f952d6c - Propagating WARN level on Logger[org.apache.tomcat.util.net.NioSelectorPool] onto the JUL framework
+08:36:31,523 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.eclipse.jetty.util.component.AbstractLifeCycle] to ERROR
+08:36:31,523 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@6f952d6c - Propagating ERROR level on Logger[org.eclipse.jetty.util.component.AbstractLifeCycle] onto the JUL framework
+08:36:31,523 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.hibernate.validator.internal.util.Version] to WARN
+08:36:31,523 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@6f952d6c - Propagating WARN level on Logger[org.hibernate.validator.internal.util.Version] onto the JUL framework
+08:36:31,524 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.springframework.boot.actuate.endpoint.jmx] to WARN
+08:36:31,524 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@6f952d6c - Propagating WARN level on Logger[org.springframework.boot.actuate.endpoint.jmx] onto the JUL framework
+08:36:31,524 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [CONSOLE]
+08:36:31,524 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+08:36:31,556 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+08:36:31,735 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [FILE]
+08:36:31,735 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+08:36:31,756 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+08:36:31,812 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1499825229 - setting totalSizeCap to 0 Bytes
+08:36:31,840 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1499825229 - Archive files will be limited to [10 MB] each.
+08:36:31,866 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1499825229 - Will use gz compression
+08:36:31,879 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1499825229 - Will use the pattern /tmp/spring.log.%d{yyyy-MM-dd}.%i for the active file
+08:36:31,943 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@6d4a65c6 - The date pattern is 'yyyy-MM-dd' from file name pattern '/tmp/spring.log.%d{yyyy-MM-dd}.%i.gz'.
+08:36:31,943 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@6d4a65c6 - Roll-over at midnight.
+08:36:31,947 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@6d4a65c6 - Setting initial period to 2024-09-24T08:36:31.529Z
+08:36:31,979 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /tmp/spring.log
+08:36:31,979 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/tmp/spring.log]
+08:36:31,981 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+08:36:31,988 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@6f952d6c - Propagating INFO level on Logger[ROOT] onto the JUL framework
+08:36:31,988 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE] to Logger[ROOT]
+08:36:31,988 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [FILE] to Logger[ROOT]
+08:36:31,988 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@aa004a0 - End of configuration.
+08:36:31,989 |-INFO in org.springframework.boot.logging.logback.SpringBootJoranConfigurator@4c98a6d5 - Registering current configuration as safe fallback point
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.7)
+
+2024-09-24T08:36:33.020Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.s.p.api.ApiGatewayApplication        : Starting ApiGatewayApplication v3.2.7 using Java 17.0.12 with PID 22313 (/home/ubuntu/spc_microservices/spring-petclinic-api-gateway/target/spring-petclinic-api-gateway-3.2.7.jar started by ubuntu in /home/ubuntu/spc_microservices)
+2024-09-24T08:36:33.054Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.s.p.api.ApiGatewayApplication        : The following 1 profile is active: "chaos-monkey"
+2024-09-24T08:36:33.649Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888/
+2024-09-24T08:36:33.650Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=api-gateway, profiles=[default], label=null, version=bb02eaacb85be571a2f2e7fdb3b1781fc11dd2b9, state=null
+2024-09-24T08:36:33.650Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888/
+2024-09-24T08:36:33.650Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=api-gateway, profiles=[chaos-monkey], label=null, version=bb02eaacb85be571a2f2e7fdb3b1781fc11dd2b9, state=null
+2024-09-24T08:36:49.823Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4466d90e-73c2-3077-8e03-a5c5971d608a
+2024-09-24T08:36:50.519Z  WARN 22313 --- [api-gateway] [           main] [                                                 ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-09-24T08:36:50.547Z  WARN 22313 --- [api-gateway] [           main] [                                                 ] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-24T08:36:50.557Z  WARN 22313 --- [api-gateway] [           main] [                                                 ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-09-24T08:36:50.587Z  WARN 22313 --- [api-gateway] [           main] [                                                 ] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-24T08:36:50.607Z  WARN 22313 --- [api-gateway] [           main] [                                                 ] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-24T08:37:00.219Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2024-09-24T08:37:00.229Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2024-09-24T08:37:00.229Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2024-09-24T08:37:00.229Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2024-09-24T08:37:00.229Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2024-09-24T08:37:00.229Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2024-09-24T08:37:00.230Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2024-09-24T08:37:00.230Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2024-09-24T08:37:00.230Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2024-09-24T08:37:00.230Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2024-09-24T08:37:00.230Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2024-09-24T08:37:00.230Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-09-24T08:37:00.230Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2024-09-24T08:37:00.230Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-09-24T08:37:05.740Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 29 endpoint(s) beneath base path '/actuator'
+2024-09-24T08:37:08.934Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-09-24T08:37:09.072Z  WARN 22313 --- [api-gateway] [           main] [                                                 ] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-09-24T08:37:09.415Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-09-24T08:37:09.595Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-09-24T08:37:09.665Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-09-24T08:37:09.717Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-09-24T08:37:09.718Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-09-24T08:37:09.718Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-09-24T08:37:09.718Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-09-24T08:37:09.718Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-09-24T08:37:09.722Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-09-24T08:37:09.722Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-09-24T08:37:10.698Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-09-24T08:37:10.701Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-09-24T08:37:10.704Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-09-24T08:37:10.706Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1727167030706 with initial instances count: 0
+2024-09-24T08:37:10.711Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application API-GATEWAY with eureka with status UP
+2024-09-24T08:37:10.712Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1727167030712, current=UP, previous=STARTING]
+2024-09-24T08:37:10.715Z  INFO 22313 --- [api-gateway] [foReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/ip-172-31-36-215.ap-south-1.compute.internal:api-gateway:8080: registering service...
+2024-09-24T08:37:10.868Z  INFO 22313 --- [api-gateway] [foReplicator-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/ip-172-31-36-215.ap-south-1.compute.internal:api-gateway:8080 - registration status: 204
+2024-09-24T08:37:11.287Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2024-09-24T08:37:11.296Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2024-09-24T08:37:11.401Z  INFO 22313 --- [api-gateway] [           main] [                                                 ] o.s.s.p.api.ApiGatewayApplication        : Started ApiGatewayApplication in 52.065 seconds (process running for 57.268)
+2024-09-24T08:37:40.701Z  INFO 22313 --- [api-gateway] [reshExecutor-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-09-24T08:37:40.701Z  INFO 22313 --- [api-gateway] [reshExecutor-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-09-24T08:37:40.701Z  INFO 22313 --- [api-gateway] [reshExecutor-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-09-24T08:37:40.702Z  INFO 22313 --- [api-gateway] [reshExecutor-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-09-24T08:37:40.702Z  INFO 22313 --- [api-gateway] [reshExecutor-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-09-24T08:37:40.702Z  INFO 22313 --- [api-gateway] [reshExecutor-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2024-09-24T08:37:40.702Z  INFO 22313 --- [api-gateway] [reshExecutor-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-09-24T08:37:40.726Z  INFO 22313 --- [api-gateway] [reshExecutor-%d] [                                                 ] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-09-24T08:42:09.725Z  INFO 22313 --- [api-gateway] [rap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-09-24T08:47:09.726Z  INFO 22313 --- [api-gateway] [rap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-09-24T08:52:09.726Z  INFO 22313 --- [api-gateway] [rap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-09-24T08:54:05.132Z  WARN 22313 --- [api-gateway] [ender@7775b117}] [                                                 ] z.r.AsyncReporter$BoundedAsyncReporter   : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2024-09-24T08:54:05.133Z  WARN 22313 --- [api-gateway] [ender@7775b117}] [                                                 ] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 1 spans due to WebClientRequestException(finishConnect(..) failed: Connection refused: localhost/127.0.0.1:9411)
+
+org.springframework.web.reactive.function.client.WebClientRequestException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:9411
+	at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:136)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ Request to POST http://localhost:9411/api/v2/spans [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.ExchangeFunctions$DefaultExchangeFunction.lambda$wrapException$9(ExchangeFunctions.java:136)
+		at reactor.core.publisher.MonoErrorSupplied.subscribe(MonoErrorSupplied.java:55)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4568)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onError(FluxPeek.java:222)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onError(MonoNext.java:93)
+		at reactor.core.publisher.MonoFlatMapMany$FlatMapManyMain.onError(MonoFlatMapMany.java:205)
+		at reactor.core.publisher.SerializedSubscriber.onError(SerializedSubscriber.java:124)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.whenError(FluxRetryWhen.java:229)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenOtherSubscriber.onError(FluxRetryWhen.java:279)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onError(FluxContextWrite.java:121)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.maybeOnError(FluxConcatMapNoPrefetch.java:327)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onNext(FluxConcatMapNoPrefetch.java:212)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+		at reactor.core.publisher.SinkManyEmitterProcessor.drain(SinkManyEmitterProcessor.java:476)
+		at reactor.core.publisher.SinkManyEmitterProcessor$EmitterInner.drainParent(SinkManyEmitterProcessor.java:620)
+		at reactor.core.publisher.FluxPublish$PubSubInner.request(FluxPublish.java:874)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:136)
+		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:337)
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.request(FluxContextWrite.java:136)
+		at reactor.core.publisher.Operators$DeferredSubscription.request(Operators.java:1743)
+		at reactor.core.publisher.FluxRetryWhen$RetryWhenMainSubscriber.onError(FluxRetryWhen.java:196)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:205)
+		at reactor.netty.http.client.HttpClientConnect$MonoHttpConnect$ClientTransportSubscriber.onError(HttpClientConnect.java:311)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:205)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$DisposableAcquire.onError(DefaultPooledConnectionProvider.java:172)
+		at reactor.netty.internal.shaded.reactor.pool.AbstractPool$Borrower.fail(AbstractPool.java:492)
+		at reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.lambda$drainLoop$9(SimpleDequePool.java:436)
+		at reactor.core.publisher.FluxDoOnEach$DoOnEachSubscriber.onError(FluxDoOnEach.java:186)
+		at reactor.core.publisher.MonoCreate$DefaultMonoSink.error(MonoCreate.java:205)
+		at reactor.netty.resources.DefaultPooledConnectionProvider$PooledConnectionAllocator$PooledConnectionInitializer.onError(DefaultPooledConnectionProvider.java:583)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.secondError(MonoFlatMap.java:241)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onError(MonoFlatMap.java:315)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:106)
+		at reactor.core.publisher.Operators.error(Operators.java:198)
+		at reactor.core.publisher.MonoError.subscribe(MonoError.java:53)
+		at reactor.core.publisher.Mono.subscribe(Mono.java:4568)
+		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:103)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.tryFailure(TransportConnector.java:576)
+		at reactor.netty.transport.TransportConnector$MonoChannelPromise.setFailure(TransportConnector.java:522)
+		at reactor.netty.transport.TransportConnector.lambda$doConnect$7(TransportConnector.java:261)
+		at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+		at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+		at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+		at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+		at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629)
+		at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:118)
+		at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.fulfillConnectPromise(AbstractEpollChannel.java:679)
+		at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:698)
+		at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567)
+		at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491)
+		at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:104)
+		at reactor.core.publisher.Mono.block(Mono.java:1779)
+		at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinWebClientSender$WebClientHttpPostCall.doExecute(ZipkinWebClientSender.java:76)
+		at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinWebClientSender$WebClientHttpPostCall.doExecute(ZipkinWebClientSender.java:54)
+		at zipkin2.Call$Base.execute(Call.java:391)
+		at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299)
+		at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: localhost/127.0.0.1:9411
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:715)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:692)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567)
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:491)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:994)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2024-09-24T08:57:09.727Z  INFO 22313 --- [api-gateway] [rap-executor-%d] [                                                 ] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

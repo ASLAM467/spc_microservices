@@ -1,0 +1,15 @@
+/home/ubuntu/spc_microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java
+/home/ubuntu/spc_microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/Mapper.java
+/home/ubuntu/spc_microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetType.java
+/home/ubuntu/spc_microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/CustomersServiceApplication.java
+/home/ubuntu/spc_microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetDetails.java
+/home/ubuntu/spc_microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetRequest.java
+/home/ubuntu/spc_microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java
+/home/ubuntu/spc_microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java
+/home/ubuntu/spc_microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/OwnerRepository.java
+/home/ubuntu/spc_microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetRepository.java
+/home/ubuntu/spc_microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/config/MetricConfig.java
+/home/ubuntu/spc_microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerRequest.java
+/home/ubuntu/spc_microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/OwnerEntityMapper.java
+/home/ubuntu/spc_microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java
+/home/ubuntu/spc_microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/ResourceNotFoundException.java

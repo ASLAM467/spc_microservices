@@ -1,0 +1,76 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.7)
+
+2024-09-24T08:36:00.626Z  INFO 22078 --- [discovery-server] [           main] o.s.s.p.d.DiscoveryServerApplication     : Starting DiscoveryServerApplication v3.2.7 using Java 17.0.12 with PID 22078 (/home/ubuntu/spc_microservices/spring-petclinic-discovery-server/target/spring-petclinic-discovery-server-3.2.7.jar started by ubuntu in /home/ubuntu/spc_microservices)
+2024-09-24T08:36:00.636Z  INFO 22078 --- [discovery-server] [           main] o.s.s.p.d.DiscoveryServerApplication     : The following 1 profile is active: "chaos-monkey"
+2024-09-24T08:36:00.708Z  INFO 22078 --- [discovery-server] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888/
+2024-09-24T08:36:00.709Z  INFO 22078 --- [discovery-server] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=discovery-server, profiles=[default], label=null, version=bb02eaacb85be571a2f2e7fdb3b1781fc11dd2b9, state=null
+2024-09-24T08:36:00.709Z  INFO 22078 --- [discovery-server] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888/
+2024-09-24T08:36:00.709Z  INFO 22078 --- [discovery-server] [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=discovery-server, profiles=[chaos-monkey], label=null, version=bb02eaacb85be571a2f2e7fdb3b1781fc11dd2b9, state=null
+2024-09-24T08:36:02.573Z  INFO 22078 --- [discovery-server] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ff62de51-47cc-3a39-8e41-a8a67d3c6496
+2024-09-24T08:36:02.659Z  WARN 22078 --- [discovery-server] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-09-24T08:36:02.662Z  WARN 22078 --- [discovery-server] [           main] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-24T08:36:03.029Z  INFO 22078 --- [discovery-server] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
+2024-09-24T08:36:03.045Z  INFO 22078 --- [discovery-server] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24T08:36:03.045Z  INFO 22078 --- [discovery-server] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-09-24T08:36:03.103Z  INFO 22078 --- [discovery-server] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24T08:36:03.105Z  INFO 22078 --- [discovery-server] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2393 ms
+2024-09-24T08:36:04.674Z  INFO 22078 --- [discovery-server] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2024-09-24T08:36:04.676Z  INFO 22078 --- [discovery-server] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2024-09-24T08:36:05.080Z  INFO 22078 --- [discovery-server] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2024-09-24T08:36:05.080Z  INFO 22078 --- [discovery-server] [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2024-09-24T08:36:06.490Z  WARN 22078 --- [discovery-server] [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-09-24T08:36:06.523Z  INFO 22078 --- [discovery-server] [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-09-24T08:36:06.557Z  INFO 22078 --- [discovery-server] [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-09-24T08:36:06.558Z  INFO 22078 --- [discovery-server] [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2024-09-24T08:36:06.560Z  INFO 22078 --- [discovery-server] [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1727166966560 with initial instances count: 0
+2024-09-24T08:36:06.627Z  INFO 22078 --- [discovery-server] [           main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2024-09-24T08:36:06.630Z  WARN 22078 --- [discovery-server] [           main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2024-09-24T08:36:06.645Z  INFO 22078 --- [discovery-server] [           main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2024-09-24T08:36:06.645Z  INFO 22078 --- [discovery-server] [           main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2024-09-24T08:36:06.656Z  INFO 22078 --- [discovery-server] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2024-09-24T08:36:06.753Z  INFO 22078 --- [discovery-server] [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application DISCOVERY-SERVER with eureka with status UP
+2024-09-24T08:36:06.786Z  INFO 22078 --- [discovery-server] [       Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2024-09-24T08:36:06.787Z  INFO 22078 --- [discovery-server] [       Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2024-09-24T08:36:06.787Z  INFO 22078 --- [discovery-server] [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2024-09-24T08:36:06.787Z  INFO 22078 --- [discovery-server] [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2024-09-24T08:36:06.787Z  INFO 22078 --- [discovery-server] [       Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2024-09-24T08:36:06.792Z  INFO 22078 --- [discovery-server] [       Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2024-09-24T08:36:06.795Z  INFO 22078 --- [discovery-server] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path ''
+2024-09-24T08:36:06.796Z  INFO 22078 --- [discovery-server] [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2024-09-24T08:36:06.836Z  INFO 22078 --- [discovery-server] [           main] o.s.s.p.d.DiscoveryServerApplication     : Started DiscoveryServerApplication in 11.758 seconds (process running for 12.715)
+2024-09-24T08:36:59.841Z  INFO 22078 --- [discovery-server] [nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-24T08:36:59.852Z  INFO 22078 --- [discovery-server] [nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-24T08:36:59.863Z  INFO 22078 --- [discovery-server] [nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-09-24T08:37:02.341Z  INFO 22078 --- [discovery-server] [nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ADMIN-SERVER/ip-172-31-36-215.ap-south-1.compute.internal:admin-server:9090 with status UP (replication=false)
+2024-09-24T08:37:06.790Z  INFO 22078 --- [discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-09-24T08:37:10.864Z  INFO 22078 --- [discovery-server] [nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/ip-172-31-36-215.ap-south-1.compute.internal:api-gateway:8080 with status UP (replication=false)
+2024-09-24T08:38:06.790Z  INFO 22078 --- [discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-09-24T08:39:06.790Z  INFO 22078 --- [discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-09-24T08:40:06.790Z  INFO 22078 --- [discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-09-24T08:41:06.790Z  INFO 22078 --- [discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-09-24T08:42:06.790Z  INFO 22078 --- [discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-09-24T08:43:06.790Z  INFO 22078 --- [discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-09-24T08:44:06.790Z  INFO 22078 --- [discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-09-24T08:45:06.790Z  INFO 22078 --- [discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-09-24T08:46:06.631Z  WARN 22078 --- [discovery-server] [eerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2024-09-24T08:46:06.790Z  INFO 22078 --- [discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-09-24T08:47:06.791Z  INFO 22078 --- [discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-09-24T08:48:06.791Z  INFO 22078 --- [discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-09-24T08:49:06.791Z  INFO 22078 --- [discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-09-24T08:50:06.791Z  INFO 22078 --- [discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-09-24T08:51:06.646Z  INFO 22078 --- [discovery-server] [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 5
+2024-09-24T08:51:06.791Z  INFO 22078 --- [discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-09-24T08:52:06.791Z  INFO 22078 --- [discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-09-24T08:53:06.791Z  INFO 22078 --- [discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-09-24T08:54:06.791Z  INFO 22078 --- [discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-09-24T08:55:06.791Z  INFO 22078 --- [discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-09-24T08:56:06.632Z  WARN 22078 --- [discovery-server] [eerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2024-09-24T08:56:06.791Z  INFO 22078 --- [discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-09-24T08:57:06.791Z  INFO 22078 --- [discovery-server] [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms

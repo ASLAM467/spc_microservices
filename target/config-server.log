@@ -1,0 +1,38 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.7)
+
+2024-09-24T08:35:36.975Z  INFO 21855 --- [           main] o.s.s.p.config.ConfigServerApplication   : Starting ConfigServerApplication v3.2.7 using Java 17.0.12 with PID 21855 (/home/ubuntu/spc_microservices/spring-petclinic-config-server/target/spring-petclinic-config-server-3.2.7.jar started by ubuntu in /home/ubuntu/spc_microservices)
+2024-09-24T08:35:36.987Z  INFO 21855 --- [           main] o.s.s.p.config.ConfigServerApplication   : The following 1 profile is active: "chaos-monkey"
+2024-09-24T08:35:40.155Z  INFO 21855 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3e414be1-c29e-3076-af58-fd1c0be19d31
+2024-09-24T08:35:40.931Z  INFO 21855 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2024-09-24T08:35:40.963Z  INFO 21855 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24T08:35:40.964Z  INFO 21855 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-09-24T08:35:41.067Z  INFO 21855 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24T08:35:41.070Z  INFO 21855 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3841 ms
+2024-09-24T08:35:41.349Z  INFO 21855 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-24T08:35:43.697Z  INFO 21855 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path ''
+2024-09-24T08:35:43.750Z  INFO 21855 --- [           main] o.s.s.p.config.ConfigServerApplication   : Started ConfigServerApplication in 8.398 seconds (process running for 9.617)
+2024-09-24T08:35:56.774Z  INFO 21855 --- [nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-24T08:35:56.775Z  INFO 21855 --- [nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-24T08:35:56.778Z  INFO 21855 --- [nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-09-24T08:35:59.276Z  INFO 21855 --- [nio-8888-exec-1] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-8796031541664369591/discovery-server.yml]' via location 'file:/tmp/config-repo-8796031541664369591/'
+2024-09-24T08:35:59.277Z  INFO 21855 --- [nio-8888-exec-1] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-8796031541664369591/application.yml]' via location 'file:/tmp/config-repo-8796031541664369591/' (document #0)
+2024-09-24T08:36:00.180Z  INFO 21855 --- [nio-8888-exec-2] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-8796031541664369591/discovery-server.yml]' via location 'file:/tmp/config-repo-8796031541664369591/'
+2024-09-24T08:36:00.181Z  INFO 21855 --- [nio-8888-exec-2] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-8796031541664369591/application.yml]' via location 'file:/tmp/config-repo-8796031541664369591/' (document #1)
+2024-09-24T08:36:00.181Z  INFO 21855 --- [nio-8888-exec-2] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-8796031541664369591/application.yml]' via location 'file:/tmp/config-repo-8796031541664369591/' (document #0)
+2024-09-24T08:36:25.629Z  INFO 21855 --- [nio-8888-exec-3] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-8796031541664369591/admin-server.yml]' via location 'file:/tmp/config-repo-8796031541664369591/' (document #0)
+2024-09-24T08:36:25.635Z  INFO 21855 --- [nio-8888-exec-3] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-8796031541664369591/application.yml]' via location 'file:/tmp/config-repo-8796031541664369591/' (document #0)
+2024-09-24T08:36:27.086Z  INFO 21855 --- [nio-8888-exec-4] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-8796031541664369591/admin-server.yml]' via location 'file:/tmp/config-repo-8796031541664369591/' (document #0)
+2024-09-24T08:36:27.087Z  INFO 21855 --- [nio-8888-exec-4] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-8796031541664369591/application.yml]' via location 'file:/tmp/config-repo-8796031541664369591/' (document #1)
+2024-09-24T08:36:27.087Z  INFO 21855 --- [nio-8888-exec-4] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-8796031541664369591/application.yml]' via location 'file:/tmp/config-repo-8796031541664369591/' (document #0)
+2024-09-24T08:36:28.038Z  INFO 21855 --- [nio-8888-exec-5] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-8796031541664369591/api-gateway.yml]' via location 'file:/tmp/config-repo-8796031541664369591/' (document #0)
+2024-09-24T08:36:28.044Z  INFO 21855 --- [nio-8888-exec-5] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-8796031541664369591/application.yml]' via location 'file:/tmp/config-repo-8796031541664369591/' (document #0)
+2024-09-24T08:36:29.772Z  INFO 21855 --- [nio-8888-exec-6] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-8796031541664369591/api-gateway.yml]' via location 'file:/tmp/config-repo-8796031541664369591/' (document #0)
+2024-09-24T08:36:29.773Z  INFO 21855 --- [nio-8888-exec-6] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-8796031541664369591/application.yml]' via location 'file:/tmp/config-repo-8796031541664369591/' (document #1)
+2024-09-24T08:36:29.773Z  INFO 21855 --- [nio-8888-exec-6] o.s.c.c.s.e.NativeEnvironmentRepository  : Adding property source: Config resource 'file [/tmp/config-repo-8796031541664369591/application.yml]' via location 'file:/tmp/config-repo-8796031541664369591/' (document #0)

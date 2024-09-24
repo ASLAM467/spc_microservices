@@ -1,0 +1,5 @@
+/home/ubuntu/spc_microservices/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/VisitRepository.java
+/home/ubuntu/spc_microservices/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/VisitsServiceApplication.java
+/home/ubuntu/spc_microservices/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/config/MetricConfig.java
+/home/ubuntu/spc_microservices/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java
+/home/ubuntu/spc_microservices/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java
