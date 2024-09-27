@@ -5,7 +5,7 @@ spring:
     import: optional:configserver:${CONFIG_SERVER_URL:http://config-server:8888/}
 
   datasource:
-    url: jdbc:mysql://mysql:3306/petclinic
+    url: jdbc:mysql://mysql:3306/petclinic  # Updated to use the service name 'mysql'
     username: root
     password: petclinic
   jpa:
@@ -14,9 +14,13 @@ spring:
       dialect: org.hibernate.dialect.MySQL8Dialect
     show-sql: true
 
+  zipkin:
+    base-url: http://tracing-server:9411  # Added Zipkin base URL
+
 ---
 spring:
   config:
     activate:
       on-profile: docker
     import: configserver:http://config-server:8888
+
